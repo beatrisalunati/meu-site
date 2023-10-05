@@ -1,0 +1,69 @@
+
+* head{
+    margin: 0;
+    padding: 0;
+    font-family: open sans,sans-serif;
+
+}
+
+
+
+
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none
+
+
+}
+a{
+    color: white;
+    text-decoration: black;
+    font-size: 20px;
+    padding: 0 10px;
+}
+a:hover{
+
+}
+.cover h1 {
+    background-image:url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    z-index: -2;
+}
+.cover P{
+    font-size: 30px;
+    color: white;
+}
+.cover::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -1;
+    
+}
+section{
+    margin: 5px;
+    padding: 5px;
+}
+section h1{
+    margin: 10px 0;
+}
+aside p{
+    font-size: 20px;
+
+}
